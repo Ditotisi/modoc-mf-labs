@@ -1,0 +1,60 @@
+.v2-input {
+  .el-input__inner {
+    &::placeholder {
+      color: #00aeff;
+    }
+    border: 1px solid #00aeff;
+    border-radius: 20px;
+  }
+  .el-input__icon {
+    color: #00aeff;
+  }
+}
+.v2-slider {
+  padding: 1rem;
+  &.full-width {
+    padding: 0;
+    .VueCarousel-wrapper {
+      border-radius: 0;
+    }
+  }
+  .VueCarousel-wrapper {
+    border-radius: 20px;
+    // box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+  }
+  .VueCarousel-pagination {
+    .VueCarousel-dot {
+      outline: none !important;
+      width: 10px !important;
+      height: 10px !important;
+      border-radius: 20px !important;
+      transition: 0.3s ease width;
+      &--active {
+        width: 20px !important;
+      }
+    }
+  }
+}
+
+.triangle-edge {
+  width: 20px;
+  height: 20px;
+  border-bottom: solid 12px transparent;
+  border-left: solid 12px transparent;
+  border-right: solid 12px #f4f4f4;
+  border-top: solid 12px #f4f4f4;
+  border-top-right-radius: 12px;
+}
+.card-news {
+  &:hover .card-news__img {
+    color: white;
+    background: #00aeff url("/img/bg-bubble-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.text-orange-default {
+  color: #f7921e;
+}
